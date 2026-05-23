@@ -2,21 +2,20 @@
 
 A floating menubar Mac app that explains whatever you've highlighted.
 Highlight text anywhere, press a hotkey, and a tight explanation appears
-in a side panel on the right of your screen. Powered by Claude.
+in a side panel on the right of your screen.
 
 ## What it does
 
-- **Grab hotkey** (default ⌘⇧G): grabs your selected text via the
-  clipboard and asks Claude for a short, confident explanation. Works for
+- **Grab hotkey** (default:Command + Shift + G): grabs your selected text via the
+  clipboard and asks for a short, confident explanation. Works for
   single words, sentences, or short paragraphs.
-- **Panel hotkey** (default ⌘⇧Space): shows / hides the side panel.
+- **Panel hotkey** (default:Command + Shift + Space): shows / hides the side panel.
 - **Side panel**: keeps a scrollable history of every explanation from
   your session, with per-entry **Copy**, **Pin**, and **Tell me more**
   buttons. Has an optional **context** field (e.g. "DJ", "legal",
   "Rust") to bias explanations toward your domain.
 - **Settings panel** (gear icon in the panel header, or *Settings…* in
-  the menubar): rebind hotkeys, pick from preset background colors or
-  open the full color wheel, choose white or black text, tune opacity
+  the menubar): rebind hotkeys, pick from preset background colors, choose white or black text, tune opacity
   and font size, clear history. All preferences persist via
   `NSUserDefaults`.
 - **Tell me more**: per-entry button that fetches a longer, more
